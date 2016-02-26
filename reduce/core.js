@@ -1,5 +1,7 @@
 function sum (array) {
-  // your code here
+  return array.reduce(function(accumulator, value, ind, arr){
+    return accumulator + value
+  }, 0)
 };
 
 function productAll (array) {
@@ -7,7 +9,10 @@ function productAll (array) {
 };
 
 function objectify (array) {
-  // your code here
+  return array.reduce(function(accumulator, value, index, array){
+    accumulator[value[0]] = value[1];
+    return accumulator;
+  }, {})
 };
 
 function luckyNumbers (array) {

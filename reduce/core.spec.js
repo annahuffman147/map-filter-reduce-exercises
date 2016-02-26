@@ -10,14 +10,14 @@ describe('Reduce', function() {
   });
 
   describe('#productAll()', function () {
-    it('return the product of all items in the matrix', function () {
+    xit('return the product of all items in the matrix', function () {
       var matrix = [[1, 2, 3],
                     [4, 5],
                     [6]];
       assert.equal(720, core.productAll(matrix));
     });
   });
-  
+
   describe('#objectify()', function () {
     it('turns an array of arrays into an object', function () {
       var matrix = [['Thundercats', '80s'],
@@ -31,7 +31,7 @@ describe('Reduce', function() {
   });
 
   describe('#luckyNumbers()', function () {
-    it('return a fortune like sentence with lucky numbers', function () {
+    xit('return a fortune like sentence with lucky numbers', function () {
       var array  = [30, 48, 11, 5, 32];
       var result = 'Your lucky numbers are: 30, 48, 11, 5, and 32';
       assert.equal(result, core.luckyNumbers(array));

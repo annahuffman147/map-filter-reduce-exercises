@@ -27,7 +27,7 @@ describe('Filter', function() {
   });
 
   describe('#allSameVowels()', function () {
-    it('return only those words where all the vowels are the same', function () {
+    xit('return only those words where all the vowels are the same', function () {
       var array = ['racecar', 'amalgam', 'oligopoly', 'zoom'];
       assert.deepEqual(['amalgam', 'zoom'], core.allSameVowels(array));
     });
